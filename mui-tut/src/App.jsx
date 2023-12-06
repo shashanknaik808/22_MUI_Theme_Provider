@@ -1,8 +1,9 @@
-import './App.css';
+import React from 'react';
+import { Box, Typography } from '@mui/material'; // Import Box and Typography from @mui/material
+import { useTheme } from '@emotion/react'; // Import useTheme from @emotion/react
 import Test from './Test';
 
 function App() {
-
   const theme = useTheme();
   console.log(theme);
 
@@ -11,8 +12,7 @@ function App() {
       <Typography variant='h1' color="primary">
         Hello World
       </Typography>
+      <Test />
     </Box>
   );
 }
-
-export default App;
