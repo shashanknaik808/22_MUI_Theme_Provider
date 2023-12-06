@@ -1,6 +1,6 @@
 import React from 'react';
-import { Box, Typography } from '@mui/material'; // Import Box and Typography from @mui/material
-import { useTheme } from '@emotion/react'; // Import useTheme from @emotion/react
+import { Box, Typography } from '@mui/material';
+import { useTheme } from '@emotion/react';
 import Test from './Test';
 
 function App() {
@@ -16,3 +16,5 @@ function App() {
     </Box>
   );
 }
+
+export default App;
