@@ -8,7 +8,7 @@ function App() {
 
   return (
     <Box>
-      <Typography color="primary">
+      <Typography variant='h1' color="primary">
         Hello World
       </Typography>
     </Box>
