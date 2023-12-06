@@ -2,10 +2,16 @@ import './App.css';
 import Test from './Test';
 
 function App() {
+
+  const theme = useTheme();
+  console.log(theme);
+
   return (
-    <div>
-      <Test />
-    </div>
+    <Box>
+      <Typography color="primary">
+        Hello World
+      </Typography>
+    </Box>
   );
 }
 
